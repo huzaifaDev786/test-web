@@ -1,0 +1,41 @@
+/* Extra small devices (phones, 600px and down)  0 to 600px 100 */
+@media only screen and (max-width: 600px) {
+body{
+    background-color: green;
+}
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) 
+
+600px 768px   10*/
+@media only screen and (min-width: 600px) {
+body{
+    background-color: grey;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up)  768  992  10*/
+@media only screen and (min-width: 768px) {
+    body{
+    background-color: blue;
+}
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) 992   to 1200px 15*/
+@media only screen and (min-width: 992px) {
+    body{
+    background-color: red;
+}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+    background-color: black;
+}
+}
+/* 1 2  anaylsis  24000  upto*/
+@media only screen and (min-width: 2400px) {}
